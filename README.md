@@ -18,4 +18,9 @@ pip freeze > requirements.txt
 
 # Install all required packages later for new comers.
 pip install -r requirements.txt
+
+# Run the web server
+flask run
+flask --app [app-name] run
+flask run --port=5000 --host=0.0.0.0
 ```
